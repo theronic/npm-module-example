@@ -1,0 +1,16 @@
+target/
+node_modules/
+classes/
+checkouts/
+dist/bundle.js
+pom.xml
+pom.xml.asc
+*.iml
+*.jar
+*.class
+/.idea
+/.lein-*
+/.nrepl-port
+/tmp
+.DS_Store
+

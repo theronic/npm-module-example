@@ -7,7 +7,7 @@
 
   :dependencies
   [[org.clojure/clojure "1.9.0-alpha16"]
-   [thheller/shadow-devtools "1.0.20170515"]]
+   [thheller/shadow-devtools "1.0.20170515-10"]]
 
   :source-paths
   ["src/main"]

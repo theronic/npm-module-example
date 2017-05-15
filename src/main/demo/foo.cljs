@@ -6,5 +6,5 @@
 (def react (npm/require "react"))
 
 (defn hello [who]
-  (js/console.log "hello from CLJS!" x (.. react (createElement "h1" nil "hello world")))
+  (js/console.log "hello from CLJS!" x (.. react (createElement "h1" nil "hello world")) :foo)
   (str "Hello, " who "!"))

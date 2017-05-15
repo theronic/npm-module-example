@@ -30,4 +30,9 @@ Or
 webpack -d (-w if you want)
 ```
 
+Or
+```
+browserify -d index.js -o dist/bundle.js
+```
+
 And then `open dist/index.html`.

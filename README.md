@@ -20,7 +20,7 @@ sh cljs.sh --watch
 
 You just need `java` installed, no more `lein`.
 
-After that has running you may either run
+After that has finished compiling you may either run
 ```
 node index.js
 ```

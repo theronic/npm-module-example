@@ -15,10 +15,10 @@ git clone https://github.com/thheller/npm-module-example.git
 cd npm-module-example
 
 yarn (or npm install)
-lein run -m shadow.npm.cli --watch
+sh cljs.sh --watch
 ```
 
-I assume `leiningen` is installed for now, I may create a standalone runner that does not require `lein` or `project.clj`.
+You just need `java` installed, no more `lein`.
 
 After that has running you may either run
 ```

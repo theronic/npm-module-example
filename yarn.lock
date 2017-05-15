@@ -123,6 +123,10 @@ setimmediate@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/setimmediate/-/setimmediate-1.0.5.tgz#290cbb232e306942d7d7ea9b83732ab7856f8285"
 
+shadow-cljs@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/shadow-cljs/-/shadow-cljs-0.2.0.tgz#381df6bc951d03cd45704fc9c4796d8dcbe2303d"
+
 source-map-loader@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/source-map-loader/-/source-map-loader-0.2.1.tgz#48126be9230bd47fad05e46a8c3c2e3d2dabe507"

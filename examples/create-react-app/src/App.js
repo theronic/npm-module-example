@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { demo } from "shadow-npm/demo.foo";
+import { demo } from "shadow-cljs/demo.foo";
 
 class App extends Component {
   render() {

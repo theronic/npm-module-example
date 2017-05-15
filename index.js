@@ -1,3 +1,3 @@
-var x = require("shadow-npm/demo.foo");
+var x = require("shadow-cljs/demo.foo");
 
 console.log(x.hello("JS"));

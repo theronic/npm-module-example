@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { hello } from 'shadow-npm/demo.foo';
+import { hello } from 'shadow-cljs/demo.foo';
 
 export default class App extends React.Component {
   render() {

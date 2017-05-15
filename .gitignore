@@ -6,7 +6,6 @@ dist/bundle.js
 pom.xml
 pom.xml.asc
 *.iml
-*.jar
 *.class
 /.idea
 /.lein-*

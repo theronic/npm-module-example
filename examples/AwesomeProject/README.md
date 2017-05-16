@@ -9,5 +9,6 @@ react-native run-ios
 ```
 
 ## Links
-https://facebook.github.io/react-native/docs/getting-started.html
-https://github.com/callstack-io/haul
+
+- https://facebook.github.io/react-native/docs/getting-started.html
+- https://github.com/callstack-io/haul

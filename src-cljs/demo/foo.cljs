@@ -1,10 +1,12 @@
 (ns demo.foo
-  (:require [shadow.npm :as npm]))
+  (:require [shadow.dom :as dom]
+            [shadow.markup.css :as css :refer (defstyled)]
+            ["react" :as react]
+            ["react-dom" :as rdom :refer (render)]))
 
-(def x (npm/require-file "lib/bar"))
-
-(def react (npm/require "react"))
+(defstyled foo :div
+  [env]
+  {:color "red"})
 
 (defn hello [who]
-  (js/console.log "hello from CLJS!" x (.. react (createElement "h1" nil "hello world")) :foo)
-  (str "Hello, " who "!"))
+  (render (foo (str "Hello, " who "!")) (dom/by-id "app")))

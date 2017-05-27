@@ -8,7 +8,7 @@
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
-    "shadow-cljs": "^0.5.1"
+    "shadow-cljs": "^0.6.0"
   },
   "shadow-cljs": {
     "dependencies": [

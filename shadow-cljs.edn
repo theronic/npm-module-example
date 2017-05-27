@@ -1,0 +1,4 @@
+[{:id :npm
+  :target :npm-module
+  :compiler-options
+  {:externs ["externs.js"]}}]

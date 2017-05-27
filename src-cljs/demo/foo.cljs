@@ -8,5 +8,5 @@
   [env]
   {:color "red"})
 
-(defn hello [who]
+(defn ^:export hello [who]
   (render (foo (str "Hello, " who "!")) (dom/by-id "app")))

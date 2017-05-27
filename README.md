@@ -37,3 +37,11 @@ browserify -d index.js -o dist/bundle.js
 ```
 
 And then `open dist/index.html`.
+
+
+# Production mode
+
+```
+shadow-cljs --release
+webpack -p
+```

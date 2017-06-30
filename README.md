@@ -5,9 +5,6 @@ All examples are from an early prototype and may have changed somewhat.
 Please refer to: (https://github.com/thheller/shadow-cljs-examples)[https://github.com/thheller/shadow-cljs-examples]
 
 
-## ======================================================================================
-
-
 # npm-module-example
 
 CLJS for JS devs

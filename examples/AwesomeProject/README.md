@@ -5,7 +5,7 @@ This was created by `react-native init AwesomeProject` and then adding `haul` to
 ```
 yarn
 shadow-cljs --once
-yarn run haul start -- --platform ios
+yarn run haul start -- --platform=ios
 react-native run-ios
 ```
 
